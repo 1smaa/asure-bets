@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asure Bets</title>
+        <meta charset="UTF-8">
+        <script type="module" src="scripts/homeScript.js"></script>
+        <script type="module" src="scripts/menuScript.js"></script>
+        <script type="module" src="scripts/logoutScript.js"></script>
+        <link rel="stylesheet" href="style/home_style.css">
+        <link rel="stylesheet" href="style/header_style.css">
+        <link rel="stylesheet" href="style/footer_style.css">
+        <link rel="stylesheet" href="style/loginBanner.css">
+        <link rel="icon" href="style/statics/small_logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="main main-wp">
+            <div class="header-wp">
+                <div class="update-wp">
+                    <img src="style/statics/refresh.svg" id="update-btn" class="update-standard">
+                </div>
+                <div class="logo-wp">
+                    <a class="logo" href="/">
+                        <img src="style/statics/logo.png" class="logo">
+                    </a>
+                </div>
+                    <div class="menu-wp">
+                        <div class="menu" id="menu">
+                            <div class="menu-item home">
+                                <a class="home-link" href="/">Home</a>
+                            </div> 
+                            <div class="menu-item bookmakers">
+                                <a class="bookmakers-link" href="/news">Notizie</a>
+                            </div>
+                            <div class="menu-item advices">
+                                <a class="advices-link" href="/advices">Consigli</a>
+                            </div>
+                            <div class="menu-item aff">
+                                <a class="aff-link" href="/affiliation">Affiliazione</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="body-wp" class="body-wp" lg-shown="false">
+                <div class="table-wp">
+                    <div class="filters">
+                        <select class="filter-wp" id="sport" name="sport">
+                            <option value="Tutti">Tutti</option>
+                            <option value="1">Calcio</option>
+                            <option value="2">Tennis</option>
+                            <option value="3">Basket</option>
+                            <option value="5">Esports</option>
+                            <option value="4">Tennis Tavolo</option>
+                        </select>
+                        <select class="filter-wp" id="bookmaker" name="bookmaker">
+                            <option value="Tutti">Tutti</option>
+                            <option value="1">888sport</option>
+                            <option value="57">Admiral</option>
+                            <option value="2">Bet365</option>
+                            <option value="27">Betaland</option>
+                            <option value="3">Betclic</option>
+                            <option value="4">Betfairsportbook</option>
+                            <option value="5">Betflagsportbook</option>
+                            <option value="56">Betman</option>
+                            <option value="6">Better</option>
+                            <option value="50">Betway</option>
+                            <option value="7">Bwin</option>
+                            <option value="52">Casinomania</option>
+                            <option value="36">Chancebet</option>
+                            <option value="32">Domusbet</option>
+                            <option value="53">E-play24</option>
+                            <option value="9">Eurobet</option>
+                            <option value="38">Giobet</option>
+                            <option value="11">Giocodigitale</option>
+                            <option value="28">Goldbet</option>
+                            <option value="35">Leovegas</option>
+                            <option value="44">Marathonbet</option>
+                            <option value="14">Netbet</option>
+                            <option value="59">Newgioco</option>
+                            <option value="61">Olybet</option>
+                            <option value="63">Pinnacle</option>
+                            <option value="33">Pinterbet</option>
+                            <option value="39">Planetwin365</option>
+                            <option value="54">Pokerstarssport</option>
+                            <option value="30">Quigioco</option>
+                            <option value="34">Scommettendo</option>
+                            <option value="15">Sisal</option>
+                            <option value="16">Snai</option>
+                            <option value="37">Sportpesa</option>
+                            <option value="24">Stanleybet</option>
+                            <option value="41">Starvegas</option>
+                            <option value="60">Totowinbet</option>
+                            <option value="19">Unibet</option>
+                            <option value="20">Williamhill</option>
+                            <option value="40">Wintoto</option>
+                        </select>
+                    </div>
+                    <div id="table"  style="display: none;" class="table">
+                        <table class="bet-table" id="bet-table">
+                            <thead>
+                                <tr>
+                                    <td>Data e ora</td>
+                                    <td>Sport</td>
+                                    <td>Partita</td>
+                                    <td>Rendimento</td>
+                                    <td>Bookmaker 1</td>
+                                    <td>Scommessa 1</td>
+                                    <td>Puntata 1</td>
+                                    <td>Bookmaker 2</td>
+                                    <td>Scommessa 2</td>
+                                    <td>Puntata 2</td>
+                                    <td>Bookmaker 3</td>
+                                    <td>Scommessa 3</td>
+                                    <td>Puntata 3</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>info@asurebets.it</p>
+                <p>Asure Bets</p>
+                <p>Instagram: @asurebets</p>
+            </footer>
+        </div>
+    </body>
+</html>

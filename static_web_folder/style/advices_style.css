@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+li,
+p,
+h1,
+h3 {
+    font-family: 'PT Sans';
+}
+
+.body-wp {
+    margin: 10px;
+}
+
+.body-wp p {
+    padding-bottom: 20px;
+}
+
+h1,
+h3 {
+    color: #4B778D;
+}
+
+.body-wp a:link {
+    font-weight: bold;
+    text-decoration-line: underline;
+}

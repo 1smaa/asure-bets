@@ -1,0 +1,39 @@
+html {
+    overflow: hidden;
+}
+
+.main-wp {
+    height: 100%;
+}
+
+.body-wp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12%;
+    align-items: center;
+}
+
+.affiliation-wp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans';
+}
+
+.title-wp {
+    color: #4B778D;
+    font-family: 'PT Sans';
+}
+
+.code-wp {
+    font-weight: bold;
+    color: #28B5B5;
+}
+
+footer {
+    position: fixed !important;
+    bottom: 0 !important;
+}

@@ -1,0 +1,31 @@
+.lg-banner-wp {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans';
+    text-align: center;
+}
+
+.lg-title-wp {
+    color: #4B778D;
+}
+
+.lg-btn-wp {
+    padding: 10px;
+    width: 120px;
+    background-color: #28B5B5;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.lg-btn-wp a:hover {
+    color: lightgrey;
+    user-select: none;
+}
+
+.lg-btn-wp a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.5s;
+}

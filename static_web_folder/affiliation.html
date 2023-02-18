@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Affiliazione</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="style/statics/small_logo.png" type="image/x-icon">
+        <script type="module" src="scripts/affiliationScript.js"></script>
+        <script type="module" src="scripts/menuScript.js"></script>
+        <script type="module" src="scripts/logoutScript.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/header_style.css">
+        <link rel="stylesheet" type="text/css" href="style/footer_style.css">
+        <link rel="stylesheet" type="text/css" href="style/affiliation_style.css">
+        <link rel="stylesheet" type="text/css" href="style/loginBanner.css">
+    </head>
+    <body>
+        <div class="main main-wp">
+            <div class="header-wp">
+                <div class="logo-wp">
+                    <a class="logo" href="/">
+                        <img src="style/statics/logo.png" class="logo">
+                    </a>
+                </div>
+                    <div class="menu-wp">
+                        <div class="menu" id="menu">
+                            <div class="menu-item bookmakers">
+                                <a class="bookmakers-link" href="/news">Notizie</a>
+                            </div>
+                            <div class="menu-item advices">
+                                <a class="advices-link" href="/advices">Consigli</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div id="body-wp" class="body-wp">
+                <div class="affiliation-wp">
+                    <div class="affiliation title-wp">
+                        <span>Il tuo codice amico è:</span>
+                    </div>
+                    <div class="affiliation code-wp">
+                        <span id="code"></span>
+                    </div>
+                </div>
+                <div class="first-level title-wp">
+                    <span>Hai <span id="first-level"></span> amici di primo livello</span>
+                </div>
+                <div class="second-level title-wp">
+                    <span>Hai <span id="second-level"></span> amici di secondo livello</span>
+                </div>
+            </div>
+            <footer>
+                <p>info@asurebets.it</p>
+                <p>Asure Bets</p>
+                <p>Instagram: @asurebets</p>
+            </footer>
+        </div>
+    </body>
+</html>

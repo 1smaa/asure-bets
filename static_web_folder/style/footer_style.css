@@ -1,0 +1,17 @@
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #28B5B5;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-left: -5px;
+    margin-top: 20px;
+    font-family: 'PT Sans';
+    padding-top: 50px;
+}
+
+footer p {
+    opacity: 0.8;
+}
